@@ -1,11 +1,11 @@
 class Facebook {
 
-	static String firstName  = Shalini;
-	static String surName    = Gowda;
-	static String dateOfBirth = 27-03-2003;
-	static String gender     = Female;
-	static long   mobileNumber = 9876543298;
-	static String email       = shalu11@gmail.com; 
+	static String firstName;
+	static String surName;
+	static String dateOfBirth;
+	static String gender;
+	static long   mobileNumber;
+	static String email;
 
 	public static boolean registerUser(String fName, String sName, String dOfBirth, String gender, long mNumber, String email){
 		boolean isUserRegistered    = false;
@@ -16,23 +16,34 @@ class Facebook {
 		boolean mobileNumberValid   = false;
 		boolean emailValid          = false;
 		
-	String getFirstName(){
-		return firstName;
+	if(fName != null){	
+		firstName = fName;
+		firstNameValid = true;
+	}	
+	
+	if(sName != null){
+		surName = sName;
+		surNameValid = true;	
 	}
 	
-	String getSurName(){
-		return surName;
+	if(dOfBirth != null){
+		dateOfBirth = dOfBirth;
+		dateOfBirthValid = true;
 	}
 	
-	String getDateOfBirth(){
-	    return getGender;
+	if(gender != null){
+		gender = gender;
+		genderValid = true;
+}
+	
+	if(mNumber != 0){
+		mobileNumber = mNumber;
+		mobileNumberValid = true;
 	}
 	
-	String getMobileNumber(){
-		return getMobileNumber;
-	}
-	String getEmail(){
-		return getEmail;
+	if(email != null){
+		email = email;
+		emailValid = true;
 	}
 	
 	if(firstNameValid == true && surNameValid == true && dateOfBirthValid == true && genderValid == true && mobileNumberValid == true && emailValid == true){
@@ -53,3 +64,4 @@ class Facebook {
 		System.out.println("The email is "+ email);
    }
 }
+
