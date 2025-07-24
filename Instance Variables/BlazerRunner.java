@@ -1,0 +1,308 @@
+class BlazerRunner{
+
+	public static void main(String args[]){
+
+	Blazer first= new Blazer();
+	first.color="red";
+	first.size="M";
+	first.fabric="woolen";
+	first.price=15000;
+	first.isFormal=true;
+	first.brand="Raymond";
+	System.out.println("blazer color is" +first.color);
+	System.out.println("blazer size is" +first.size);
+	System.out.println("blazer fabric is" +first.fabric);
+	System.out.println("blazer price is" +first.price);
+	System.out.println("blazer isfoemal is" +first.isFormal);
+	System.out.println("blazer brand is" +first.brand);
+
+		Blazer blazer2 = new Blazer();
+        blazer2.color = "Navy Blue";
+        blazer2.size = "L";
+        blazer2.fabric = "Cotton";
+        blazer2.price = 9999;
+        blazer2.isFormal = false;
+        blazer2.brand = "Van Heusen";
+        System.out.println("blazer color is    " + blazer2.color);
+        System.out.println("blazer size is     " + blazer2.size);
+        System.out.println("blazer fabric is   " + blazer2.fabric);
+        System.out.println("blazer price is    " + blazer2.price);
+        System.out.println("blazer isFormal is " + blazer2.isFormal);
+        System.out.println("blazer brand is    " + blazer2.brand);
+        System.out.println();
+
+        Blazer blazer3 = new Blazer();
+        blazer3.color = "Black";
+        blazer3.size = "XL";
+        blazer3.fabric = "Linen";
+        blazer3.price = 11000;
+        blazer3.isFormal = true;
+        blazer3.brand = "Arrow";
+        System.out.println("blazer color is    " + blazer3.color);
+        System.out.println("blazer size is     " + blazer3.size);
+        System.out.println("blazer fabric is   " + blazer3.fabric);
+        System.out.println("blazer price is    " + blazer3.price);
+        System.out.println("blazer isFormal is " + blazer3.isFormal);
+        System.out.println("blazer brand is    " + blazer3.brand);
+        System.out.println();
+
+        Blazer blazer4 = new Blazer();
+        blazer4.color = "Grey";
+        blazer4.size = "S";
+        blazer4.fabric = "Tweed";
+        blazer4.price = 8500;
+        blazer4.isFormal = false;
+        blazer4.brand = "Park Avenue";
+        System.out.println("blazer color is    " + blazer4.color);
+        System.out.println("blazer size is     " + blazer4.size);
+        System.out.println("blazer fabric is   " + blazer4.fabric);
+        System.out.println("blazer price is    " + blazer4.price);
+        System.out.println("blazer isFormal is " + blazer4.isFormal);
+        System.out.println("blazer brand is    " + blazer4.brand);
+        System.out.println();
+
+        Blazer blazer5 = new Blazer();
+        blazer5.color = "Maroon";
+        blazer5.size = "M";
+        blazer5.fabric = "Silk";
+        blazer5.price = 12999;
+        blazer5.isFormal = true;
+        blazer5.brand = "Louis Philippe";
+        System.out.println("blazer color is    " + blazer5.color);
+        System.out.println("blazer size is     " + blazer5.size);
+        System.out.println("blazer fabric is   " + blazer5.fabric);
+        System.out.println("blazer price is    " + blazer5.price);
+        System.out.println("blazer isFormal is " + blazer5.isFormal);
+        System.out.println("blazer brand is    " + blazer5.brand);
+        System.out.println();
+
+        Blazer blazer6 = new Blazer();
+        blazer6.color = "Olive";
+        blazer6.size = "L";
+        blazer6.fabric = "Polyester";
+        blazer6.price = 7800;
+        blazer6.isFormal = false;
+        blazer6.brand = "Zara";
+        System.out.println("blazer color is    " + blazer6.color);
+        System.out.println("blazer size is     " + blazer6.size);
+        System.out.println("blazer fabric is   " + blazer6.fabric);
+        System.out.println("blazer price is    " + blazer6.price);
+        System.out.println("blazer isFormal is " + blazer6.isFormal);
+        System.out.println("blazer brand is    " + blazer6.brand);
+        System.out.println();
+
+        Blazer blazer7 = new Blazer();
+        blazer7.color = "Charcoal";
+        blazer7.size = "XL";
+        blazer7.fabric = "Blended";
+        blazer7.price = 10450;
+        blazer7.isFormal = true;
+        blazer7.brand = "Marks & Spencer";
+        System.out.println("blazer color is    " + blazer7.color);
+        System.out.println("blazer size is     " + blazer7.size);
+        System.out.println("blazer fabric is   " + blazer7.fabric);
+        System.out.println("blazer price is    " + blazer7.price);
+        System.out.println("blazer isFormal is " + blazer7.isFormal);
+        System.out.println("blazer brand is    " + blazer7.brand);
+        System.out.println();
+
+        Blazer blazer8 = new Blazer();
+        blazer8.color = "White";
+        blazer8.size = "S";
+        blazer8.fabric = "Silk Blend";
+        blazer8.price = 14500;
+        blazer8.isFormal = false;
+        blazer8.brand = "Blackberrys";
+        System.out.println("blazer color is    " + blazer8.color);
+        System.out.println("blazer size is     " + blazer8.size);
+        System.out.println("blazer fabric is   " + blazer8.fabric);
+        System.out.println("blazer price is    " + blazer8.price);
+        System.out.println("blazer isFormal is " + blazer8.isFormal);
+        System.out.println("blazer brand is    " + blazer8.brand);
+        System.out.println();
+
+        Blazer blazer9 = new Blazer();
+        blazer9.color = "Cream";
+        blazer9.size = "M";
+        blazer9.fabric = "Linen Blend";
+        blazer9.price = 11990;
+        blazer9.isFormal = true;
+        blazer9.brand = "Allen Solly";
+        System.out.println("blazer color is    " + blazer9.color);
+        System.out.println("blazer size is     " + blazer9.size);
+        System.out.println("blazer fabric is   " + blazer9.fabric);
+        System.out.println("blazer price is    " + blazer9.price);
+        System.out.println("blazer isFormal is " + blazer9.isFormal);
+        System.out.println("blazer brand is    " + blazer9.brand);
+        System.out.println();
+
+        Blazer blazer10 = new Blazer();
+        blazer10.color = "Brown";
+        blazer10.size = "L";
+        blazer10.fabric = "Wool Blend";
+        blazer10.price = 9800;
+        blazer10.isFormal = false;
+        blazer10.brand = "H&M";
+        System.out.println("blazer color is    " + blazer10.color);
+        System.out.println("blazer size is     " + blazer10.size);
+        System.out.println("blazer fabric is   " + blazer10.fabric);
+        System.out.println("blazer price is    " + blazer10.price);
+        System.out.println("blazer isFormal is " + blazer10.isFormal);
+        System.out.println("blazer brand is    " + blazer10.brand);
+        System.out.println();
+
+        Blazer blazer11 = new Blazer();
+        blazer11.color = "Ash Grey";
+        blazer11.size = "M";
+        blazer11.fabric = "Cotton Blend";
+        blazer11.price = 10999;
+        blazer11.isFormal = true;
+        blazer11.brand = "John Players";
+        System.out.println("blazer color is   " + blazer11.color);
+        System.out.println("blazer size is    " + blazer11.size);
+        System.out.println("blazer fabric is  " + blazer11.fabric);
+        System.out.println("blazer price is   " + blazer11.price);
+        System.out.println("blazer isFormal is " + blazer11.isFormal);
+        System.out.println("blazer brand is   " + blazer11.brand);
+        System.out.println();
+
+        Blazer blazer12 = new Blazer();
+        blazer12.color = "Sky Blue";
+        blazer12.size = "S";
+        blazer12.fabric = "Polyester";
+        blazer12.price = 9499;
+        blazer12.isFormal = false;
+        blazer12.brand = "Levis";
+        System.out.println("blazer color is   " + blazer12.color);
+        System.out.println("blazer size is    " + blazer12.size);
+        System.out.println("blazer fabric is  " + blazer12.fabric);
+        System.out.println("blazer price is   " + blazer12.price);
+        System.out.println("blazer isFormal is " + blazer12.isFormal);
+        System.out.println("blazer brand is   " + blazer12.brand);
+        System.out.println();
+
+        Blazer blazer13 = new Blazer();
+        blazer13.color = "Mustard";
+        blazer13.size = "L";
+        blazer13.fabric = "Khadi";
+        blazer13.price = 12999;
+        blazer13.isFormal = true;
+        blazer13.brand = "Raymond";
+        System.out.println("blazer color is   " + blazer13.color);
+        System.out.println("blazer size is    " + blazer13.size);
+        System.out.println("blazer fabric is  " + blazer13.fabric);
+        System.out.println("blazer price is   " + blazer13.price);
+        System.out.println("blazer isFormal is " + blazer13.isFormal);
+        System.out.println("blazer brand is   " + blazer13.brand);
+        System.out.println();
+
+        Blazer blazer14 = new Blazer();
+        blazer14.color = "Olive";
+        blazer14.size = "M";
+        blazer14.fabric = "Velvet";
+        blazer14.price = 14499;
+        blazer14.isFormal = false;
+        blazer14.brand = "Allen Solly";
+        System.out.println("blazer color is   " + blazer14.color);
+        System.out.println("blazer size is    " + blazer14.size);
+        System.out.println("blazer fabric is  " + blazer14.fabric);
+        System.out.println("blazer price is   " + blazer14.price);
+        System.out.println("blazer isFormal is " + blazer14.isFormal);
+        System.out.println("blazer brand is   " + blazer14.brand);
+        System.out.println();
+
+        Blazer blazer15 = new Blazer();
+        blazer15.color = "Chocolate";
+        blazer15.size = "XL";
+        blazer15.fabric = "Denim";
+        blazer15.price = 15999;
+        blazer15.isFormal = true;
+        blazer15.brand = "Louis Philippe";
+        System.out.println("blazer color is   " + blazer15.color);
+        System.out.println("blazer size is    " + blazer15.size);
+        System.out.println("blazer fabric is  " + blazer15.fabric);
+        System.out.println("blazer price is   " + blazer15.price);
+        System.out.println("blazer isFormal is " + blazer15.isFormal);
+        System.out.println("blazer brand is   " + blazer15.brand);
+        System.out.println();
+
+        Blazer blazer16 = new Blazer();
+        blazer16.color = "Cream";
+        blazer16.size = "L";
+        blazer16.fabric = "Woolen";
+        blazer16.price = 13899;
+        blazer16.isFormal = false;
+        blazer16.brand = "Peter England";
+        System.out.println("blazer color is   " + blazer16.color);
+        System.out.println("blazer size is    " + blazer16.size);
+        System.out.println("blazer fabric is  " + blazer16.fabric);
+        System.out.println("blazer price is   " + blazer16.price);
+        System.out.println("blazer isFormal is " + blazer16.isFormal);
+        System.out.println("blazer brand is   " + blazer16.brand);
+        System.out.println();
+
+        Blazer blazer17 = new Blazer();
+        blazer17.color = "Beige";
+        blazer17.size = "S";
+        blazer17.fabric = "Linen";
+        blazer17.price = 10299;
+        blazer17.isFormal = true;
+        blazer17.brand = "H&M";
+        System.out.println("blazer color is   " + blazer17.color);
+        System.out.println("blazer size is    " + blazer17.size);
+        System.out.println("blazer fabric is  " + blazer17.fabric);
+        System.out.println("blazer price is   " + blazer17.price);
+        System.out.println("blazer isFormal is " + blazer17.isFormal);
+        System.out.println("blazer brand is   " + blazer17.brand);
+        System.out.println();
+
+        Blazer blazer18 = new Blazer();
+        blazer18.color = "Wine Red";
+        blazer18.size = "M";
+        blazer18.fabric = "Poly Wool";
+        blazer18.price = 16500;
+        blazer18.isFormal = true;
+        blazer18.brand = "Zara";
+        System.out.println("blazer color is   " + blazer18.color);
+        System.out.println("blazer size is    " + blazer18.size);
+        System.out.println("blazer fabric is  " + blazer18.fabric);
+        System.out.println("blazer price is   " + blazer18.price);
+        System.out.println("blazer isFormal is " + blazer18.isFormal);
+        System.out.println("blazer brand is   " + blazer18.brand);
+        System.out.println();
+
+        Blazer blazer19 = new Blazer();
+        blazer19.color = "Teal";
+        blazer19.size = "XL";
+        blazer19.fabric = "Viscose";
+        blazer19.price = 8700;
+        blazer19.isFormal = false;
+        blazer19.brand = "Mufti";
+        System.out.println("blazer color is   " + blazer19.color);
+        System.out.println("blazer size is    " + blazer19.size);
+        System.out.println("blazer fabric is  " + blazer19.fabric);
+        System.out.println("blazer price is   " + blazer19.price);
+        System.out.println("blazer isFormal is " + blazer19.isFormal);
+        System.out.println("blazer brand is   " + blazer19.brand);
+        System.out.println();
+
+        Blazer blazer20 = new Blazer();
+        blazer20.color = "Maroon";
+        blazer20.size = "L";
+        blazer20.fabric = "Linen Blend";
+        blazer20.price = 13200;
+        blazer20.isFormal = true;
+        blazer20.brand = "Marks & Spencer";
+        System.out.println("blazer color is   " + blazer20.color);
+        System.out.println("blazer size is    " + blazer20.size);
+        System.out.println("blazer fabric is  " + blazer20.fabric);
+        System.out.println("blazer price is   " + blazer20.price);
+        System.out.println("blazer isFormal is " + blazer20.isFormal);
+        System.out.println("blazer brand is   " + blazer20.brand);
+        System.out.println();
+
+
+}
+
+
+}

@@ -1,0 +1,264 @@
+class BladeRunner {
+
+    public static void main(String args[]) {
+
+        Blade first = new Blade();
+        first.color = "Silver";
+        first.fabric = "Cisco UCS Fabric Interconnect";
+        first.price = 15000;
+        first.isNice = true;
+        first.brand = "Raymond";
+        System.out.println("blade color is " + first.color);
+        System.out.println("blade fabric is " + first.fabric);
+        System.out.println("blade price is " + first.price);
+        System.out.println("blade isNice is " + first.isNice);
+        System.out.println("blade brand is " + first.brand);
+
+        Blade blade2 = new Blade();
+        blade2.color = "Steel";
+        blade2.fabric = "Dell PowerEdge MX Fabric";
+        blade2.price = 9;
+        blade2.isNice = false;
+        blade2.brand = "Van Heusen";
+        System.out.println("blade color is    " + blade2.color);
+        System.out.println("blade fabric is   " + blade2.fabric);
+        System.out.println("blade price is    " + blade2.price);
+        System.out.println("blade isNice is   " + blade2.isNice);
+        System.out.println("blade brand is    " + blade2.brand);
+        System.out.println();
+
+        Blade blade3 = new Blade();
+        blade3.color = "Black";
+        blade3.fabric = "HPE Virtual Connect Fabric";
+        blade3.price = 11000;
+        blade3.isNice = true;
+        blade3.brand = "Arrow";
+        System.out.println("blade color is    " + blade3.color);
+        System.out.println("blade fabric is   " + blade3.fabric);
+        System.out.println("blade price is    " + blade3.price);
+        System.out.println("blade isNice is   " + blade3.isNice);
+        System.out.println("blade brand is    " + blade3.brand);
+        System.out.println();
+
+        Blade blade4 = new Blade();
+        blade4.color = "Rainbow";
+        blade4.fabric = "IBM Flex System Fabric";
+        blade4.price = 8500;
+        blade4.isNice = false;
+        blade4.brand = "Park Avenue";
+        System.out.println("blade color is    " + blade4.color);
+        System.out.println("blade fabric is   " + blade4.fabric);
+        System.out.println("blade price is    " + blade4.price);
+        System.out.println("blade isNice is " + blade4.isNice);
+        System.out.println("blade brand is    " + blade4.brand);
+        System.out.println();
+
+        Blade blade5 = new Blade();
+        blade5.color = "Maroon";
+        blade5.fabric = "Lenovo ThinkSystem Fabric";
+        blade5.price = 12999;
+        blade5.isNice = true;
+        blade5.brand = "Louis Philippe";
+        System.out.println("blade color is    " + blade5.color);
+        System.out.println("blade fabric is   " + blade5.fabric);
+        System.out.println("blade price is    " + blade5.price);
+        System.out.println("blade isNice is   " + blade5.isNice);
+        System.out.println("blade brand is    " + blade5.brand);
+        System.out.println();
+
+        Blade blade6 = new Blade();
+        blade6.color = "Olive";
+        blade6.fabric = "Fujitsu Dynamic Fabric";
+        blade6.price = 7800;
+        blade6.isNice = false;
+        blade6.brand = "Zara";
+        System.out.println("blade color is    " + blade6.color);
+        System.out.println("blade fabric is   " + blade6.fabric);
+        System.out.println("blade price is    " + blade6.price);
+        System.out.println("blade isNice is " + blade6.isNice);
+        System.out.println("blade brand is    " + blade6.brand);
+        System.out.println();
+
+        Blade blade7 = new Blade();
+        blade7.color = "Gold";
+        blade7.fabric = "Supermicro SuperBlade Fabric";
+        blade7.price = 10450;
+        blade7.isNice = true;
+        blade7.brand = "Marks & Spencer";
+        System.out.println("blade7 color is    " + blade7.color);
+        System.out.println("blade7 fabric is   " + blade7.fabric);
+        System.out.println("blade7 price is    " + blade7.price);
+        System.out.println("blade7 isNice is   " + blade7.isNice);
+        System.out.println("blade7 brand is    " + blade7.brand);
+        System.out.println();
+
+        Blade blade8 = new Blade();
+        blade8.color = "White";
+        blade8.fabric = "Cisco Nexus Fabric";
+        blade8.price = 14500;
+        blade8.isNice = false;
+        blade8.brand = "Blackberrys";
+        System.out.println("blade color is    " + blade8.color);
+        System.out.println("blade fabric is   " + blade8.fabric);
+        System.out.println("blade price is    " + blade8.price);
+        System.out.println("blade isNice is   " + blade8.isNice);
+        System.out.println("blade brand is    " + blade8.brand);
+        System.out.println();
+
+        Blade blade9 = new Blade();
+        blade9.color = "Iridescent";
+        blade9.fabric = "Juniper QFabric";
+        blade9.price = 11990;
+        blade9.isNice = true;
+        blade9.brand = "Allen Solly";
+        System.out.println("blade color is    " + blade9.color);
+        System.out.println("blade fabric is   " + blade9.fabric);
+        System.out.println("blade price is    " + blade9.price);
+        System.out.println("blade isNice is   " + blade9.isNice);
+        System.out.println("blade brand is    " + blade9.brand);
+        System.out.println();
+
+        Blade blade10 = new Blade();
+        blade10.color = "Brown";
+        blade10.fabric = "Arista Leaf-Spine Fabric";
+        blade10.price = 9800;
+        blade10.isNice = false;
+        blade10.brand = "H&M";
+        System.out.println("blade color is    " + blade10.color);
+        System.out.println("blade fabric is   " + blade10.fabric);
+        System.out.println("blade price is    " + blade10.price);
+        System.out.println("blade isNice is   " + blade10.isNice);
+        System.out.println("blade brand is    " + blade10.brand);
+        System.out.println();
+
+        Blade blade11 = new Blade();
+        blade11.color = "Ash Grey";
+        blade11.fabric = "Brocade VDX Fabric";
+        blade11.price = 10999;
+        blade11.isNice = true;
+        blade11.brand = "John Players";
+        System.out.println("blade color is   " + blade11.color);
+        System.out.println("blade fabric is  " + blade11.fabric);
+        System.out.println("blade price is   " + blade11.price);
+        System.out.println("blade isNice is " + blade11.isNice);
+        System.out.println("blade brand is   " + blade11.brand);
+        System.out.println();
+
+        Blade blade12 = new Blade();
+        blade12.color = "Sky Blue";
+        blade12.fabric = "Extreme Networks Fabric Connect";
+        blade12.price = 9499;
+        blade12.isNice = false;
+        blade12.brand = "Levis";
+        System.out.println("blade color is   " + blade12.color);
+        System.out.println("blade fabric is  " + blade12.fabric);
+        System.out.println("blade price is   " + blade12.price);
+        System.out.println("blade isNice is " + blade12.isNice);
+        System.out.println("blade brand is   " + blade12.brand);
+        System.out.println();
+
+        Blade blade13 = new Blade();
+        blade13.color = "Mustard";
+        blade13.fabric = "Huawei CloudFabric";
+        blade13.price = 12999;
+        blade13.isNice = true;
+        blade13.brand = "Raymond";
+        System.out.println("blade color is   " + blade13.color);
+        System.out.println("blade fabric is  " + blade13.fabric);
+        System.out.println("blade price is   " + blade13.price);
+        System.out.println("blade isNice is " + blade13.isNice);
+        System.out.println("blade brand is   " + blade13.brand);
+        System.out.println();
+
+        Blade blade14 = new Blade();
+        blade14.color = "Olive";
+        blade14.fabric = "Intel Omni-Path Fabric";
+        blade14.price = 14499;
+        blade14.isNice = false;
+        blade14.brand = "Allen Solly";
+        System.out.println("blade color is   " + blade14.color);
+        System.out.println("blade fabric is  " + blade14.fabric);
+        System.out.println("blade price is   " + blade14.price);
+        System.out.println("blade isNice is " + blade14.isNice);
+        System.out.println("blade brand is   " + blade14.brand);
+        System.out.println();
+
+        Blade blade15 = new Blade();
+        blade15.color = "Chocolate";
+        blade15.fabric = "Mellanox InfiniBand Fabric";
+        blade15.price = 15999;
+        blade15.isNice = true;
+        blade15.brand = "Louis Philippe";
+        System.out.println("blade color is   " + blade15.color);
+        System.out.println("blade fabric is  " + blade15.fabric);
+        System.out.println("blade price is   " + blade15.price);
+        System.out.println("blade isNice is " + blade15.isNice);
+        System.out.println("blade brand is   " + blade15.brand);
+        System.out.println();
+
+        Blade blade16 = new Blade();
+        blade16.color = "Cream";
+        blade16.fabric = "Nvidia Spectrum Fabric";
+        blade16.price = 13899;
+        blade16.isNice = false;
+        blade16.brand = "Peter England";
+        System.out.println("blade color is   " + blade16.color);
+        System.out.println("blade fabric is  " + blade16.fabric);
+        System.out.println("blade price is   " + blade16.price);
+        System.out.println("blade isNice is " + blade16.isNice);
+        System.out.println("blade brand is   " + blade16.brand);
+        System.out.println();
+
+        Blade blade17 = new Blade();
+        blade17.color = "Beige";
+        blade17.fabric = "Pluribus Adaptive Cloud Fabric";
+        blade17.price = 10299;
+        blade17.isNice = true;
+        blade17.brand = "H&M";
+        System.out.println("blade color is   " + blade17.color);
+        System.out.println("blade fabric is  " + blade17.fabric);
+        System.out.println("blade price is   " + blade17.price);
+        System.out.println("blade isNice is " + blade17.isNice);
+        System.out.println("blade brand is   " + blade17.brand);
+        System.out.println();
+
+        Blade blade18 = new Blade();
+        blade18.color = "Wine Red";
+        blade18.fabric = "Avaya VENA Fabric";
+        blade18.price = 16500;
+        blade18.isNice = true;
+        blade18.brand = "Zara";
+        System.out.println("blade color is   " + blade18.color);
+        System.out.println("blade fabric is  " + blade18.fabric);
+        System.out.println("blade price is   " + blade18.price);
+        System.out.println("blade isNice is " + blade18.isNice);
+        System.out.println("blade brand is   " + blade18.brand);
+        System.out.println();
+
+        Blade blade19 = new Blade();
+        blade19.color = "Teal";
+        blade19.fabric = "HP FlexFabric";
+        blade19.price = 8700;
+        blade19.isNice = false;
+        blade19.brand = "Mufti";
+        System.out.println("blade color is   " + blade19.color);
+        System.out.println("blade fabric is  " + blade19.fabric);
+        System.out.println("blade price is   " + blade19.price);
+        System.out.println("blade isNice is " + blade19.isNice);
+        System.out.println("blade brand is   " + blade19.brand);
+        System.out.println();
+
+        Blade blade20 = new Blade();
+        blade20.color = "Maroon";
+        blade20.fabric = "Hitachi Unified Compute Platform Fabric";
+        blade20.price = 200;
+        blade20.isNice = true;
+        blade20.brand = "Marks & Spencer";
+        System.out.println("blade color is   " + blade20.color);
+        System.out.println("blade fabric is  " + blade20.fabric);
+        System.out.println("blade price is   " + blade20.price);
+        System.out.println("blade isNice is " + blade20.isNice);
+        System.out.println("blade brand is   " + blade20.brand);
+        System.out.println();
+	}
+}
